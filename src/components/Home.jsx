@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function AnimatedStat({ value, suffix, label }) {
   const [count, setCount] = React.useState(0);
@@ -76,9 +77,9 @@ const Home = () => {
               <button className="bg-[#3cc9d7] text-white px-6 py-3 rounded-md text-base font-medium shadow hover:bg-[#2bb0bd] transition">
                 Start Your AI Journey
               </button>
-              <button className="bg-white text-black px-6 py-3 rounded-md text-base font-medium shadow hover:bg-gray-100 transition">
+              <Link to="/case-studies" className="bg-white text-black px-6 py-3 rounded-md text-base font-medium shadow hover:bg-gray-100 transition">
                 View Case Studies
-              </button>
+              </Link>
             </div>
           </div>
           <div className="flex-1 flex items-center justify-center">

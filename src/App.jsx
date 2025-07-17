@@ -5,13 +5,14 @@ import ProcessAutomation from "./components/services/ProcessAutomation";
 import AIvisionSolution from "./components/services/AIvisionSolution";
 import IOTfication from "./components/services/IOTfication";
 import AIadvisory from "./components/services/Aiadvisory";
+import CaseStudies from "./components/CaseStudies";
 import './App.css'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import { motion } from "framer-motion";
 
-const WHATSAPP_NUMBER = "919999999999"; // Replace with your business number
+const WHATSAPP_NUMBER = "+971528902876"; // Replace with your business number
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/service/ai-vision" element={<AIvisionSolution />} />
           <Route path="/service/iotification" element={<IOTfication />} />
           <Route path="/service/ai-advisory" element={<AIadvisory />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
         </Routes>
         <Footer />
       </motion.div>

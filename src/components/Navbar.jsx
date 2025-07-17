@@ -156,7 +156,7 @@ const Navbar = () => {
           )}
         </div>
         <a
-          href="#"
+          href="/case-studies"
           className="text-base text-gray-800 hover:text-[#3BC3CA] transition"
         >
           Case Studies
