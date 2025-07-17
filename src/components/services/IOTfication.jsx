@@ -9,16 +9,21 @@ const IOTfication = () => (
       className="relative w-full min-h-[95vh] flex items-center justify-center text-center"
       style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/40 z-0" />
+
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center w-full px-4 py-24">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight md:leading-tight">
-          Connect and optimize your  <br className="hidden md:block" />
+          Connect and optimize your <br className="hidden md:block" />
           physical assets
         </h1>
         <p className="text-lg md:text-2xl text-white max-w-3xl mx-auto mt-4">
-          Our IoT solution integrates hardware, software, and data analytics to revolutionize industries and enhance efficiency. It delivers actionable insights and drives business growth by leveraging the power of connected devices.        </p>
+          Our IoT solution integrates hardware, software, and data analytics to revolutionize industries and enhance efficiency. It delivers actionable insights and drives business growth by leveraging the power of connected devices.
+        </p>
       </div>
     </section>
+
     {/* Complete IoT Ecosystem Solutions Section */}
     <section className="w-full flex flex-col items-center justify-center py-12 px-4 bg-white">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">Complete IoT Ecosystem Solutions</h2>
