@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const bgImage = "/CustomerExpOptim/CustomerExp.jpg";
 
@@ -117,9 +118,9 @@ const CustomerExperienceoptimization = () => (
         <p className="text-base md:text-lg text-white text-center mb-6 max-w-3xl">
           Let's discuss how AI can revolutionize your customer interactions and drive unprecedented satisfaction levels.
         </p>
-        <button className="bg-white text-[#22b8c2] px-8 py-3 rounded-md text-base font-semibold shadow hover:bg-gray-100 transition">
+        <Link to="/bookameeting" className="bg-white text-[#22b8c2] px-8 py-3 rounded-md text-base font-semibold shadow hover:bg-gray-100 transition">
           Get Started Today
-        </button>
+        </Link>
       </div>
     </section>
   </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const bgImage = "/IOT/IOTfication.jpg";
@@ -175,9 +176,9 @@ const IOTfication = () => (
         <h2 className="text-2xl md:text-4xl font-bold text-white text-center mb-4">Ready to Connect Your Operations?</h2>
         <p className="text-base md:text-lg text-white text-center mb-6 max-w-3xl">
           Transform your business with comprehensive IoT solutions that deliver real-time insights and operational excellence.        </p>
-        <button className="bg-white text-[#22b8c2] px-8 py-3 rounded-md text-base font-semibold shadow hover:bg-gray-100 transition">
+        <Link to="/bookameeting" className="bg-white text-[#22b8c2] px-8 py-3 rounded-md text-base font-semibold shadow hover:bg-gray-100 transition">
           Get Started Today
-        </button>
+        </Link>
       </div>
     </section>
 

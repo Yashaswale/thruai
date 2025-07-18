@@ -171,9 +171,9 @@ const Navbar = () => {
 
       {/* Desktop CTA Button */}
       <div className="flex-1 hidden md:flex justify-end">
-        <button className="bg-[#3BC3CA] text-white px-6 py-2 rounded-md text-base font-medium shadow hover:bg-[#2bb0bd] transition">
+        <Link to="/bookameeting" className="bg-[#3BC3CA] text-white px-6 py-2 rounded-md text-base font-medium shadow hover:bg-[#2bb0bd] transition">
           Book your Meeting
-        </button>
+        </Link>
       </div>
 
       {/* Mobile Fullscreen Menu */}

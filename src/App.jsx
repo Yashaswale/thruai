@@ -6,6 +6,7 @@ import AIvisionSolution from "./components/services/AIvisionSolution";
 import IOTfication from "./components/services/IOTfication";
 import AIadvisory from "./components/services/Aiadvisory";
 import CaseStudies from "./components/CaseStudies";
+import BookaMeeting from "./components/BookaMeeting";
 import './App.css'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -28,6 +29,8 @@ function App() {
           <Route path="/service/iotification" element={<IOTfication />} />
           <Route path="/service/ai-advisory" element={<AIadvisory />} />
           <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/bookameeting" element={<BookaMeeting />} />
+
         </Routes>
         <Footer />
       </motion.div>

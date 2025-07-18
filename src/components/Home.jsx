@@ -74,9 +74,9 @@ const Home = () => {
               ThruAi helps enterprises unlock the power of artificial intelligence to optimize customer experiences, automate processes, and drive unprecedented growth through data-driven insights.
             </p>
             <div className="flex gap-4 flex-wrap">
-              <button className="bg-[#3cc9d7] text-white px-6 py-3 rounded-md text-base font-medium shadow hover:bg-[#2bb0bd] transition">
+              <Link to="/bookameeting" className="bg-[#3cc9d7] text-white px-6 py-3 rounded-md text-base font-medium shadow hover:bg-[#2bb0bd] transition">
                 Start Your AI Journey
-              </button>
+              </Link>
               <Link to="/case-studies" className="bg-white text-black px-6 py-3 rounded-md text-base font-medium shadow hover:bg-gray-100 transition">
                 View Case Studies
               </Link>
@@ -171,18 +171,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Calendly Inline Widget Section */}
-      <section className="w-full flex flex-col items-center justify-center py-12 bg-white">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-center text-[#222]">
-          Book a Meeting today
-        </h2>
-        <div
-          className="calendly-inline-widget"
-          data-url="https://calendly.com/rayan-nasr-thru-ai?hide_landing_page_details=1&hide_gdpr_banner=1"
-          style={{ minWidth: '320px', height: '700px', width: '100%' }}
-        ></div>
-      </section>
-
+      
       {/* Contact Section */}
       <section className="w-full flex flex-col items-center py-32 px-4 bg-white">
         <h2 className="text-5xl font-bold text-center mb-4">Ready to Transform Your Business?</h2>
